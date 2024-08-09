@@ -1,0 +1,29 @@
+#!/bin/bash
+if [[ $# != 0 ]]; then
+  echo "Usage: compile"
+  exit 1
+fi
+for FILE in *; do
+  if [[ $FILE == src* && $FILE == *.c ]]; then
+    echo "C program: "$FILE
+    gcc -Wall -Werror -std=c11 $FILE
+    if [[ $? == 0 ]]; then
+      echo "Successfully compiled!"
+      for FILE2 in *; do
+        if [[ $FILE2 == input* && $FILE2 == *.data ]]; then
+          echo "Input file: "$FILE2
+          a.out < $FILE2
+          if [[ $? == 0 ]]; then
+            echo "Run successful."
+          else
+            echo "Run failed on "$FILE2"."
+          fi
+        fi
+      done
+    else
+      echo "Compilation of "$FILE" failed!"
+    fi
+    echo
+  fi
+done
+exit 0

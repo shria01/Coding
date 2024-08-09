@@ -1,0 +1,28 @@
+#!/bin/bash
+if [[ $# -ne 1 ]]; then
+  echo "Usage: verify <filename>"
+  exit 1
+fi
+if [[ ! -a "$1" ]]; then
+  echo "Error: $1 is not readable!"
+  exit 1
+fi
+if [[ ! -r "$1" ]]; then
+  echo "Error: $1 is not readable!"
+  exit 1
+fi
+VALIDP=$(grep -n  -E '(?:\+?1\s?)?[-. (]?[0-9][0-9][0-9][-. )]?[0-9][0-9][0-9][-. ]?[0-9][0-9][0-9][0-9]' $1)
+VALIDE=$( cut -d':' -f2 $1 | grep -n -v " " | grep -E '[a-zA-Z0-9_-]+@(?:[a-zA-Z0-9_-]+\.?)?[a-zA-Z0-9_-]+\.[a-zA-Z]+' )
+echo "$VALIDE"
+file=$1
+while IFS=: read -r PHONE EMAIL; do
+  echo "$PHONE"
+  if [[ "$PHONE" =~ ^\+?1?\s?[-\.\s\(]?[0-9][0-9][0-9][-\.\s\)]?[0-9][0-9][0-9][-\.\s]?[0-9][0-9][0-9][0-9]$ ]]; then
+    echo "yes"
+  fi
+  echo "$EMAIL"
+  if [[ "$EMAIL" =~ ^[a-zA-Z0-9_\-]+@([a-zA-Z0-9_\-]*\.?)?[a-zA-Z0-9_\-]+\.[a-zA-z]+$ ]]; then
+    echo "yes2"
+  fi
+done < "$file"
+exit 1

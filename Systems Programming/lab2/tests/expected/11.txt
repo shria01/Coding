@@ -1,0 +1,42 @@
+BREAK
+BREAK
+[
+	addr: 0000
+	order: 13
+	size: 8192
+	chunk: 0016
+	allocated: fencepost
+]
+[
+	addr: 0016
+	order: 12
+	size: 4096
+	chunk: 0016
+	allocated: true
+]
+[
+	addr: 4112
+	order: 12
+	size: 4096
+	chunk: 0016
+	allocated: true
+]
+[
+	addr: 8208
+	order: 4
+	size: 16
+	chunk: 0016
+	allocated: fencepost
+]
+g_heap_end: 8255
+List 12:
+[
+	addr: 12468
+	order: 12
+	size: 4096
+	chunk: 8372
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+

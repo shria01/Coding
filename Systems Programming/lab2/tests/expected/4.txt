@@ -1,0 +1,505 @@
+[
+	addr: 0000
+	order: 12
+	size: 4096
+	chunk: 0016
+	allocated: fencepost
+]
+[
+	addr: 0016
+	order: 7
+	size: 128
+	chunk: 0016
+	allocated: true
+]
+[
+	addr: 0144
+	order: 7
+	size: 128
+	chunk: 0016
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+[
+	addr: 0272
+	order: 8
+	size: 256
+	chunk: 0016
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+[
+	addr: 0528
+	order: 9
+	size: 512
+	chunk: 0016
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+[
+	addr: 1040
+	order: 10
+	size: 1024
+	chunk: 0016
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+[
+	addr: 2064
+	order: 11
+	size: 2048
+	chunk: 0016
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+[
+	addr: 4112
+	order: 4
+	size: 16
+	chunk: 0016
+	allocated: fencepost
+]
+g_heap_end: 4127
+[
+	addr: 0000
+	order: 12
+	size: 4096
+	chunk: 0016
+	allocated: fencepost
+]
+[
+	addr: 0016
+	order: 7
+	size: 128
+	chunk: 0016
+	allocated: true
+]
+[
+	addr: 0144
+	order: 7
+	size: 128
+	chunk: 0016
+	allocated: true
+]
+[
+	addr: 0272
+	order: 8
+	size: 256
+	chunk: 0016
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+[
+	addr: 0528
+	order: 9
+	size: 512
+	chunk: 0016
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+[
+	addr: 1040
+	order: 10
+	size: 1024
+	chunk: 0016
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+[
+	addr: 2064
+	order: 11
+	size: 2048
+	chunk: 0016
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+[
+	addr: 4112
+	order: 4
+	size: 16
+	chunk: 0016
+	allocated: fencepost
+]
+g_heap_end: 4127
+[
+	addr: 0000
+	order: 12
+	size: 4096
+	chunk: 0016
+	allocated: fencepost
+]
+[
+	addr: 0016
+	order: 7
+	size: 128
+	chunk: 0016
+	allocated: true
+]
+[
+	addr: 0144
+	order: 7
+	size: 128
+	chunk: 0016
+	allocated: true
+]
+[
+	addr: 0272
+	order: 7
+	size: 128
+	chunk: 0016
+	allocated: true
+]
+[
+	addr: 0400
+	order: 7
+	size: 128
+	chunk: 0016
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+[
+	addr: 0528
+	order: 9
+	size: 512
+	chunk: 0016
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+[
+	addr: 1040
+	order: 10
+	size: 1024
+	chunk: 0016
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+[
+	addr: 2064
+	order: 11
+	size: 2048
+	chunk: 0016
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+[
+	addr: 4112
+	order: 4
+	size: 16
+	chunk: 0016
+	allocated: fencepost
+]
+g_heap_end: 4127
+[
+	addr: 0000
+	order: 12
+	size: 4096
+	chunk: 0016
+	allocated: fencepost
+]
+[
+	addr: 0016
+	order: 7
+	size: 128
+	chunk: 0016
+	allocated: true
+]
+[
+	addr: 0144
+	order: 7
+	size: 128
+	chunk: 0016
+	allocated: true
+]
+[
+	addr: 0272
+	order: 7
+	size: 128
+	chunk: 0016
+	allocated: true
+]
+[
+	addr: 0400
+	order: 7
+	size: 128
+	chunk: 0016
+	allocated: true
+]
+[
+	addr: 0528
+	order: 9
+	size: 512
+	chunk: 0016
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+[
+	addr: 1040
+	order: 10
+	size: 1024
+	chunk: 0016
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+[
+	addr: 2064
+	order: 11
+	size: 2048
+	chunk: 0016
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+[
+	addr: 4112
+	order: 4
+	size: 16
+	chunk: 0016
+	allocated: fencepost
+]
+g_heap_end: 4127
+Part 1 passed
+[
+	addr: 0000
+	order: 12
+	size: 4096
+	chunk: 0016
+	allocated: fencepost
+]
+[
+	addr: 0016
+	order: 7
+	size: 128
+	chunk: 0016
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+[
+	addr: 0144
+	order: 7
+	size: 128
+	chunk: 0016
+	allocated: true
+]
+[
+	addr: 0272
+	order: 7
+	size: 128
+	chunk: 0016
+	allocated: true
+]
+[
+	addr: 0400
+	order: 7
+	size: 128
+	chunk: 0016
+	allocated: true
+]
+[
+	addr: 0528
+	order: 9
+	size: 512
+	chunk: 0016
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+[
+	addr: 1040
+	order: 10
+	size: 1024
+	chunk: 0016
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+[
+	addr: 2064
+	order: 11
+	size: 2048
+	chunk: 0016
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+[
+	addr: 4112
+	order: 4
+	size: 16
+	chunk: 0016
+	allocated: fencepost
+]
+g_heap_end: 4127
+[
+	addr: 0000
+	order: 12
+	size: 4096
+	chunk: 0016
+	allocated: fencepost
+]
+[
+	addr: 0016
+	order: 8
+	size: 256
+	chunk: 0016
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+[
+	addr: 0272
+	order: 7
+	size: 128
+	chunk: 0016
+	allocated: true
+]
+[
+	addr: 0400
+	order: 7
+	size: 128
+	chunk: 0016
+	allocated: true
+]
+[
+	addr: 0528
+	order: 9
+	size: 512
+	chunk: 0016
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+[
+	addr: 1040
+	order: 10
+	size: 1024
+	chunk: 0016
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+[
+	addr: 2064
+	order: 11
+	size: 2048
+	chunk: 0016
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+[
+	addr: 4112
+	order: 4
+	size: 16
+	chunk: 0016
+	allocated: fencepost
+]
+g_heap_end: 4127
+[
+	addr: 0000
+	order: 12
+	size: 4096
+	chunk: 0016
+	allocated: fencepost
+]
+[
+	addr: 0016
+	order: 8
+	size: 256
+	chunk: 0016
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+[
+	addr: 0272
+	order: 7
+	size: 128
+	chunk: 0016
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+[
+	addr: 0400
+	order: 7
+	size: 128
+	chunk: 0016
+	allocated: true
+]
+[
+	addr: 0528
+	order: 9
+	size: 512
+	chunk: 0016
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+[
+	addr: 1040
+	order: 10
+	size: 1024
+	chunk: 0016
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+[
+	addr: 2064
+	order: 11
+	size: 2048
+	chunk: 0016
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+[
+	addr: 4112
+	order: 4
+	size: 16
+	chunk: 0016
+	allocated: fencepost
+]
+g_heap_end: 4127
+Part 2 passed
+[
+	addr: 0000
+	order: 12
+	size: 4096
+	chunk: 0016
+	allocated: fencepost
+]
+[
+	addr: 0016
+	order: 12
+	size: 4096
+	chunk: 0016
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+[
+	addr: 4112
+	order: 4
+	size: 16
+	chunk: 0016
+	allocated: fencepost
+]
+g_heap_end: 4127
+Part 3 passed

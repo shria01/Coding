@@ -1,0 +1,51 @@
+#!/bin/bash
+if [[ $# -ne 2 ]]; then
+  echo "Usage: matrixmul <matrix1> <matrix2>"
+  exit 1
+fi
+if [[ ! -a "$1" ]]; then
+  echo "Error: $1 is not readable!"
+  exit 1
+fi
+if [[ ! -r "$1" ]]; then
+  echo "Error: $1 is not readable!"
+  exit 1
+fi
+
+if [[ ! -a "$2" ]]; then
+  echo "Error: $2 is not readable!"
+  exit 1
+fi
+if [[ ! -r "$2" ]]; then
+  echo "Error: $2 is not readable!"
+  exit 1
+fi
+
+MATRIX1=$( cat $1 )
+MATRIX2=$( cat $2 )
+NUMCOLS1=$( head -n 1 $1 | wc -w )
+NUMCOLS2=$( head -n 1 $2 | wc -w )
+NUMROWS1=$( cut -d' ' -f1 $1 | wc -l )
+NUMROWS2=$( cut -d' ' -f1 $2 | wc -l )
+if [[ $NUMCOLS1 -ne $NUMROWS2 ]]; then
+  echo "Error: incompatible matrix dimensions!"
+  exit 1
+fi
+
+for (( x=1; x<=$NUMROWS1; x++ )); do
+  for (( y=1; y<=$NUMCOLS2; y++ )); do
+    PRODUCT=0
+    for (( z=1; z<=$NUMCOLS1; z++ )); do
+      NUM1=$( head -n $x "$1" | tail -n 1 | cut -d' ' -f$z)
+      NUM2=$( head -n $z "$2" | tail -n 1 | cut -d' ' -f$y)
+      ((PRODUCT=PRODUCT+(NUM1*NUM2)))
+    done
+    if [ $y -eq 1 ]; then
+      echo -n "$PRODUCT"
+    else
+      echo -n " $PRODUCT"
+    fi
+  done
+  echo
+done
+exit 0

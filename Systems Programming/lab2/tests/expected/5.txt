@@ -1,0 +1,68 @@
+List 7:
+[
+	addr: 0144
+	order: 7
+	size: 128
+	chunk: 0016
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+
+List 8:
+[
+	addr: 0272
+	order: 8
+	size: 256
+	chunk: 0016
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+
+List 9:
+[
+	addr: 0528
+	order: 9
+	size: 512
+	chunk: 0016
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+
+List 10:
+[
+	addr: 1040
+	order: 10
+	size: 1024
+	chunk: 0016
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+
+List 11:
+[
+	addr: 2064
+	order: 11
+	size: 2048
+	chunk: 0016
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+
+BREAK
+
+List 12:
+[
+	addr: 0016
+	order: 12
+	size: 4096
+	chunk: 0016
+	allocated: false
+	prev: NULLPTR
+	next: NULLPTR
+]
+
