@@ -1,8 +1,0 @@
-0xff00ff01ff00ff00
-0xff00ff03ff00ff02
-0xff00ff05ff00ff04
-0xff00ff07ff00ff06
-0xff00ff09ff00ff08
-0xff00ff0bff00ff0a
-0xff00ff0dff00ff0c
-0xff00ff0fff00ff0e
